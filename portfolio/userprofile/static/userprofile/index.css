@@ -1,0 +1,240 @@
+/* 
+
+
+body {
+    background-color: #569be0; 
+    color: #2c3e50; 
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #6a89cc, #82ccdd);
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  h1.page-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  p.lead {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #576574;
+  }
+  
+  .btn-primary {
+    background-color: #38ada9;
+    border-color: #38ada9;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #079992;
+    border-color: #079992;
+  }
+  
+  .btn-outline-secondary {
+    color: #38ada9;
+    border-color: #38ada9;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .btn-outline-secondary:hover {
+    color: #ffffff;
+    background-color: #38ada9;
+    border-color: #38ada9;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    color: #2c3e50;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .card-body {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin-top: 50px;
+  }
+  
+  .text-center {
+    margin: 0 auto;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  h3.text-center {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  p.text-center {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #576574;
+    font-size: 1.15rem;
+  } 
+   */
+/* index.css */
+
+
+/* index.css */
+
+/* index.css */
+
+/* index.css */
+
+/* index.css */
+
+/* General styles for body and containers */
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.nav-link:hover {
+  color: #007bff;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Section Styles */
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  font-weight: bold;
+  color: #007bff;
+}
+
+h3 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Introduction Section */
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.text-center p {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+/* Projects Section */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* About Us Section */
+p.text-center {
+  font-size: 1.1rem;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+}
+
+/* Contact Us Section */
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+form .btn {
+  font-size: 1.2rem;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
